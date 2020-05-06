@@ -35,14 +35,11 @@
              
             </div>
                 <script>
-               function zipFun(){
                    var  x= window.getElementById("zip");
-                   var text= "Your current Zip Code: " + x.elements[0].value;}
-                   window.getElementById("code").innerHTML=text;	
-               
+                   var text= x.elements[0].value;          
+                   document.write("current zip:" + text);
                 </script>
-                <p id='code'></p> 
-                <button onclick="zipFun()" href="#code">Click to view Current Zip:</button>
+   
                 <a id=ZipUpdate href="index.html">Need to update your Zip Code?</a>
                 
       
