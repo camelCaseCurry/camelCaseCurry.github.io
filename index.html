@@ -3,13 +3,14 @@
     <head>
         <title>caridoor-zip</title>
         <link rel="stylesheet" type="text/css" href="Style.css">
-           
+       <script src="script.js"></script>
     </head>
     <body>
+   
         <div id= "enterZip">
-        <form  action="main.html method="post">
+        <form  action= zipAct method="post">
             <label for="zipCode"> Enter your Zip Code:</label>
-            <input id="zip" name="zipCode" type="text">
+            <input id="zip" name="zipCode" type="text" pattern="[0-9]*">                                                     
             <input type="submit" value="Submit">
         </form>
         </div>
