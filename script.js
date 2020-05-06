@@ -5,5 +5,6 @@ else {
   alert( "We do not deliver to "+ $("#zip").val() );
   zipAct =null;
 }
-document.getElementById.('enterZip').action= "camelcasecurry.github.io/"+ zipAct;
+document.getElementById.('enterZip').action= "https://camelcasecurry.github.io/"+ zipAct;
  
+alert( $("#zip").val() );
