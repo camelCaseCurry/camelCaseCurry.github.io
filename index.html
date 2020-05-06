@@ -8,17 +8,19 @@
     <body>
         <p id="code"></p>
         <script>
-            x= document.getElementById("zip");
-            i=0;
-            text = x.elements[i].value ;
-            document.getElementById("code").innerHTML=text;
+            function zipFun(){
+                x= document.getElementById("zip");
+                i=0;
+                text = x.elements[i].value ;
+                document.getElementById("code").innerHTML=text;
+            }
         </script>
    
         <div >
-        <form id= "enterZip" action="https://camelcasecurry.github.io/">
+        <form id= "enterZip" action="https://camelcasecurry.github.io/main.html">
             <label for="zipCode"> Enter your Zip Code:</label>
             <input id="zip" name="zipCode" type="text" pattern="[0-9]*">                                                     
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" onclick="zipFun()">
         </form>
         </div>
          
