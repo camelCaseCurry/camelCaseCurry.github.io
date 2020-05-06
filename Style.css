@@ -1,0 +1,52 @@
+body {background-color: #fffaee;}
+
+
+
+*{font-family: Verdana;}
+#headerbox{
+    background-color:#fffaee;
+    width: 100%;
+    border: 15px red;
+    margin: 0 auto;
+    text-align:center;
+}
+#mainName{color:red;}
+
+a:link{color:red;}
+a:visited {color: red;}
+a:hover{color:pink;}it
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fffaee;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(50,45,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: red;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: pink;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
