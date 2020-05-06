@@ -10,15 +10,16 @@
         <script>
             function zipFun(){
                 x= document.getElementById("zip");
-                i=0;
+                for (i = 0; i < x.length ;i++) {
                 text = x.elements[i].value ;
+                }
                 document.getElementById("code").innerHTML=text;
             }
             zipFun();
         </script>
    
         <div >
-        <form id= "enterZip" action="https://camelcasecurry.github.io/main.html">
+        <form id= "enterZip" action="main.html">
             <label for="zipCode"> Enter your Zip Code:</label>
             <input id="zip" name="zipCode" type="text" pattern="[0-9]*">                                                     
             <input type="submit" value="Submit" >
