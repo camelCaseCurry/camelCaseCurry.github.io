@@ -1,8 +1,53 @@
 <!DOCTYPE html>
 <html>
-<body>
-<header>Caridoor</header>
-  <nav><a href="main.html">Home</a><nav>
-<p>Caribbean Groceries at your door</p>
-</body>
+    <head>
+        <title>caridoor-zip</title>
+        <link rel="stylesheet" type="text/css" href="Style.css">
+            <script>
+            function myFunction() {
+              document.location.href="main.html";
+            }
+            </script>
+    </head>
+    <body>
+    
+            \
+ 
+        <element onsubmit="myScript">
+        <div id="headerbox">
+            <img src="C:\Users\Otaku\Downloads\icon.png" alt="caridoor logo">
+            <h1 id="mainName">Caridoor</h1>
+            <h3>Carribean groceries delivered to your door</h3>
+         </div>
+         <div id="zipBox">
+            <h4>Please enter your zipocode to determine delivery availability.</h4>
+            <form>
+                 <label for="zipcode">Zip Code:</label><br>
+                 <input id="zip" name="zipcode" type="text" inputmode="numeric" pattern="^(?(^00000(|-0000))|(\d{5}(|-\d{4})))$">
+            </form>
+            
+           
+            <input type="button" value="Submit" onclick=:"myFunction()">
+
+           
+            <!--<a href="index.html">Home</a>
+            <a href="recipes.html"id="rl">Recipes</a>
+            <a href="chat.html"id="cl">Chat and Suggestions</a>
+                
+                
+            <div class="dropdown">
+              <a href="aisles.html" class="dropbtn">Browse Aisles</a>
+              <div class="dropdown-content">
+                
+                <a href="#">Pantry</a>
+                <a href="#">Produce</a>
+                <a href="#">Meats</a>
+                <a href="#">Seafood</a>
+                <a href="#">Frozen Goods</a>
+              </div>
+                </div>
+            </div>
+            -->
+      
+    </body>
 </html>
