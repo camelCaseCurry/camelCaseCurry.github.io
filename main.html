@@ -35,12 +35,12 @@
              
             </div>
                  <script>
-            function result(){
-                var code =document.getElementById('enterZip').value;
-                document.write("<p>Your Current</p>");
-                document.write(code +"<br>");
-            }   
+       
+                var code =document.getElementById('zip').value;
+                 document.getElementById('holder').innerHTML=code;
+         
         </script>
+                <p id="holder"></p>
             
                 <button onclick= "return result()">zip code</button>
                 <a id=ZipUpdate href="index.html">Need to update your Zip Code?</a>
